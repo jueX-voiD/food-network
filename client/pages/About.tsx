@@ -1,5 +1,4 @@
 import { useState } from "react";
-import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import goodgovernance from "@/assets/good-governance.svg";
 import ecological from "@/assets/ecological.svg";
@@ -105,8 +104,6 @@ function PrincipleCard({ svg, title, subtitle, items }: Principle) {
 export default function About() {
   return (
     <div className="min-h-screen bg-fn-bg mt-[120px]">
-      <Header />
-
       <main>
         {/* ── Hero ── */}
         <section className="max-w-[1200px] mx-auto px-5 pt-12 pb-16">

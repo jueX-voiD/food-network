@@ -23,12 +23,6 @@ export default function Header() {
               About
             </Link>
           </div>
-          <Link
-            to="/#contact"
-            className="flex items-center justify-center px-8 py-4 rounded-[40px] bg-fn-orange text-16 text-fn-bg uppercase"
-          >
-            Contact Us
-          </Link>
         </nav>
         <button
           className="md:hidden p-2 text-fn-dark"
@@ -65,13 +59,6 @@ export default function Header() {
             onClick={() => setMenuOpen(false)}
           >
             About
-          </Link>
-          <Link
-            to="/#contact"
-            className="inline-flex items-center justify-center px-8 py-3 rounded-[40px] bg-fn-orange text-16 text-fn-bg uppercase w-fit self-center uppercase"
-            onClick={() => setMenuOpen(false)}
-          >
-            Contact Us
           </Link>
         </div>
       )}

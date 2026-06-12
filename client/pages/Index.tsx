@@ -1,7 +1,6 @@
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import { toast } from "sonner";
-import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import heroIllustration from "@/assets/hero-illustration.svg";
 import foodascommodity from "@/assets/food-commodity.svg";
@@ -418,7 +417,6 @@ function ContactSection() {
 export default function Index() {
   return (
     <div className="min-h-screen bg-fn-bg font-grotesk">
-      <Header />
       <main className="flex flex-col gap-[50px]">
         <HeroSection />
         <VisionSection />
