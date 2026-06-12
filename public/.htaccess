@@ -70,6 +70,9 @@
   Require all denied
 </FilesMatch>
 
+# Block .git directory contents (cPanel clone leaves .git/ in public_html)
+RedirectMatch 404 /\.git(/|$)
+
 # Default document
 DirectoryIndex index.html
 

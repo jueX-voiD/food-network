@@ -9,7 +9,7 @@ export default function Header() {
       <div className="max-w-[1200px] mx-auto px-5 py-[30px] flex justify-between items-center">
         <Link to="/">
           <img
-            src="./site-logo.png"
+            src="/site-logo.png"
             alt="Food Networks"
             className="h-[60px] md:h-[75px] w-auto mix-blend-darken"
           />

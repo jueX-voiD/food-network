@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row gap-10 md:gap-24 mb-8">
           <div className="flex flex-col gap-[14px]">
             <img
-              src="../client/assets/site-logo.png"
+              src="/site-logo.png"
               alt="Food Networks"
               className="w-[131px] h-auto"
             />

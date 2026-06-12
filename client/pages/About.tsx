@@ -4,6 +4,18 @@ import goodgovernance from "@/assets/good-governance.svg";
 import ecological from "@/assets/ecological.svg";
 import livelihoods from "@/assets/livelihoods.svg";
 import sociallearning from "@/assets/social-learning.svg";
+import aboutHero from "@/assets/about-hero.png";
+import patrickHonauer from "@/assets/Patrick Honauer.png";
+import tulsiGiri from "@/assets/Tulsi Giri.jpg";
+import murielFischer from "@/assets/Muriel Fischer.png";
+import sarvagunaAcademy from "@/assets/Sarvaguna Academy.png";
+import potImg from "@/assets/pot.png";
+import bachsermart from "@/assets/bachsermart.png";
+import kheti from "@/assets/kheti.png";
+import theBazaar from "@/assets/the-bazaar.png";
+import socialGastronomyMovement from "@/assets/social-gastronomy-movement.png";
+import opnSfsp from "@/assets/logo OPN SFSP 1.png";
+import image14 from "@/assets/image 14.png";
 
 function ArrowIcon({ color = "#fff" }: { color?: string }) {
   return (
@@ -138,7 +150,7 @@ export default function About() {
             <div className="lg:w-[480px] flex-shrink-0 w-full justify-center flex">
               <div className="rounded-2xl overflow-hidden w-full bg-fn-section max-w-[572px] ">
                 <img
-                  src="../client/assets/about-hero.png"
+                  src={aboutHero}
                   alt="Food Networks team meeting"
                   className="w-full h-full object-cover"
                 />
@@ -251,17 +263,17 @@ export default function About() {
                 {
                   name: "Patrick Honauer",
                   role: "Co-Facilitator",
-                  img: "../client/assets/Patrick Honauer.png",
+                  img: patrickHonauer,
                 },
                 {
                   name: "Tulsi Giri",
                   role: "Co-Facilitator",
-                  img: "../client/assets/Tulsi Giri.jpg",
+                  img: tulsiGiri,
                 },
                 {
                   name: "Muriel Fischer",
                   role: "Co-Facilitator",
-                  img: "../client/assets/Muriel Fischer.png",
+                  img: murielFischer,
                 },
               ].map((member) => (
                 <div
@@ -312,12 +324,12 @@ export default function About() {
                 </h3>
                 <div className="flex flex-col gap-5 items-center justify-center">
                   <img
-                    src="../client/assets/Sarvaguna Academy.png"
+                    src={sarvagunaAcademy}
                     alt=""
                     className="h-[45px]"
                   />
                   <img
-                    src="../client/assets/pot.png"
+                    src={potImg}
                     alt=""
                     className="h-[40px]"
                   />
@@ -331,10 +343,10 @@ export default function About() {
                 </h3>
                 <div className="grid grid-cols-2 gap-4 justify-center items-center self-center w-full">
                   {[
-                    "../client/assets/bachsermart.png",
-                    "../client/assets/kheti.png",
-                    "../client/assets/the-bazaar.png",
-                    "../client/assets/social-gastronomy-movement.png",
+                    bachsermart,
+                    kheti,
+                    theBazaar,
+                    socialGastronomyMovement,
                   ].map((logo) => (
                     <div key={logo}>
                       <img
@@ -354,12 +366,12 @@ export default function About() {
                 </h3>
                 <div className="flex flex-col gap-5 items-center justify-center">
                   <img
-                    src="../client/assets/logo OPN SFSP 1.png"
+                    src={opnSfsp}
                     alt=""
                     className="h-[40px]"
                   />
                   <img
-                    src="../client/assets/image 14.png"
+                    src={image14}
                     alt=""
                     className="h-[60px]"
                   />
