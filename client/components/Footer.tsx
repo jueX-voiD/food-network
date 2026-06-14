@@ -1,3 +1,5 @@
+import footerLogo from "@/assets/site-logo.png";
+
 export default function Footer() {
   return (
     <footer className="w-full bg-fn-dark">
@@ -5,7 +7,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row gap-10 md:gap-24 mb-8">
           <div className="flex flex-col gap-[14px]">
             <img
-              src="/site-logo.png"
+              src={footerLogo}
               alt="Food Networks"
               className="w-[131px] h-auto"
             />
